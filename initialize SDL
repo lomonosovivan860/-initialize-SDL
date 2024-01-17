@@ -1,0 +1,5 @@
+  printf("Failed to initialize SDL!\n");
+        return -1;
+    }
+    bool quit = false;
+    SDL_Event e;
